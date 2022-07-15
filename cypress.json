@@ -1,0 +1,25 @@
+{
+  "video": false,
+  "trashAssetsBeforeRuns": true,
+  "experimentalSessionAndOrigin": true,
+  "modifyObstructiveCode": false,
+  "screenshotOnRunFailure": true,
+  "chromeWebSecurity": false,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/testresults/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  },
+  "viewportWidth": 1920,
+  "viewportHeight": 1080
+}
